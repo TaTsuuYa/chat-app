@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* dim */
+  --fib-0: 0px;
+  --fib-1: 1px;
+  --fib-2: 2px;
+  --fib-3: 3px;
+  --fib-4: 5px;
+  --fib-5: 8px;
+  --fib-6: 13px;
+  --fib-7: 21px;
+  --fib-8: 34px;
+  --fib-9: 55px;
+  --fib-10: 89px;
+  --fib-11: 144px;
+  --fib-12: 233px;
+  --fib-13: 377px;
+  --fib-14: 610px;
+  --fib-15: 987px;
+  --fib-16: 1597px;
+  --fib-17: 2584px;
+  --fib-18: 4181px;
+  --fib-19: 6765px;
+
+  /* col */
+  --lavender-l: #e6e6fa;
+  --lavender-d: #7f52ac;
+
+  --coral-l: #ff7f50;
+  --coral-d: #9b3d3d;
+
+  --peach: #ffe5b4;
+
+  --primary-l: var(--coral-l);
+  --primary-d: var(--coral-d);
+
+  --secondary-l: var(--lavender-l);
+  --secondary-d: var(--lavender-d);
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+
+  background-image: linear-gradient(
+    45deg,
+    var(--primary-l),
+    var(--secondary-l)
+  );
+}
+
+#root.dark {
+  background-image: linear-gradient(
+    45deg,
+    var(--primary-d),
+    var(--secondary-d)
+  );
+}

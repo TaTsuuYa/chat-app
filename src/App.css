@@ -1,0 +1,11 @@
+.main-page {
+  position: absolute;
+  inset: var(--fib-6);
+
+  border-radius: var(--fib-6);
+  background-color: var(--peach);
+
+  box-shadow: var(--fib-4) var(--fib-4) var(--fib-4) rgb(0 0 0 / 0.3),
+    calc(-1 * var(--fib-4)) calc(-1 * var(--fib-4)) var(--fib-4)
+      rgb(255 255 255 / 0.3);
+}
